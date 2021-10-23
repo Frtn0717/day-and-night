@@ -1,0 +1,117 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Lato', sans-serif;
+  src: url('https://fonts.googleapis.com');
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Lato';
+  color: #fff;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  padding: 2rem 2rem;
+}
+
+.login {
+  width: 50vw;
+  display: none;
+  margin: 0 2rem 2rem;
+  padding: 0.2rem;
+}
+
+.login-input {
+  width: 15vw;
+  height: 2.5rem;
+  font-size: 1.1rem;
+  margin-right: 4rem;
+  padding: 0.5rem;
+  border: none;
+}
+
+.login-btn {
+  width: 5vw;
+  height: 2.5rem;
+  font-size: 1.1rem;
+  border: none;
+}
+
+.logout {
+  width: 50vw;
+  display: none;
+  margin: 0 2rem 2rem;
+  padding: 0.2rem;
+  display: none;
+}
+
+.logout-text {
+  font-size: 1.2rem;
+  display: inline;
+  margin-right: 2rem;
+}
+
+.logout-btn {
+  width: 5vw;
+  height: 2.5rem;
+  font-size: 1.1rem;
+  border: none;
+}
+
+.theme-wrapper {
+  width: 16vw;
+  height: 2.5rem;
+  display: flex;
+  justify-content: end;
+  color: #fff;
+}
+
+.theme-btn {
+  width: 10vw;
+  border: none;
+  font-size: 1.1rem;
+}
+
+.theme-btn:hover {
+  cursor: pointer;
+}
+
+.wrapper {
+  width: 96vw;
+  display: flex;
+}
+
+.header-wrapper {
+  width: 96vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dropdown-wrapper {
+  width: 15vw;
+  height: 2.5rem;
+  font-size: 1.1rem;
+  margin: 0 2rem;
+  padding: 0.2rem;
+  border: none;
+}
+
+.category,
+.title {
+  width: 15vw;
+  font-size: 1rem;
+}
+
+.show {
+  display: block;
+}
