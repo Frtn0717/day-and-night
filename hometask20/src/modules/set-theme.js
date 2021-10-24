@@ -1,4 +1,6 @@
+import { main } from './variables.js';
+
 export const setTheme = (curTheme) => {
-  const link = document.getElementById('styles-link');
-  link.href = `../styles/${curTheme}.css`;
+  main.className = '';
+  main.classList.add(`main-${curTheme}`);
 };

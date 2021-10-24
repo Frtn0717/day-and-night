@@ -3,49 +3,50 @@
   background: linear-gradient(to left, #d66c45, #d58131, #4a736a, #324756);
 }
 
-.login-input-light {
+.main-light .login-input {
   background-color: #2789ca;
   color: #fff;
 }
 
-.login-btn-light {
+.main-light .login-btn {
   background-color: #2789ca;
   color: #fff;
 }
 
-.dropdown-wrapper-light {
+.main-light .dropdown-wrapper {
   background-color: #2789ca;
   color: #fff;
 }
 
-.login-btn-light:hover {
-  cursor: pointer;
+.main-light .login-btn:hover {
   background-color: #5b9ac4;
 }
 
-.logout-btn-light {
+.main-light .logout-btn {
   background-color: #2789ca;
   color: #fff;
 }
 
-.logout-btn-light:hover {
-  cursor: pointer;
+.main-light .logout-btn:hover {
   background-color: #5b9ac4;
 }
 
-.theme-btn-light {
+.main-light .theme-btn {
   background-color: #2789ca;
   color: #fff;
   border: 1px solid #fff;
 }
 
-.theme-btn-light:hover {
+.main-light .theme-btn:hover {
   background-color: #5b9ac4;
   color: #fff;
 }
 
-/* .light {
-  background: linear-gradient(to left, #d66c45, #d58131, #4a736a, #324756);
+.main-light .error-escape-btn {
   background-color: #2789ca;
   color: #fff;
-} */
+}
+
+.main-light .error-escape-btn:hover {
+  background-color: #5b9ac4;
+}

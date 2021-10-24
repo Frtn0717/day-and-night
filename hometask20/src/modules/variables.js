@@ -13,6 +13,14 @@ const vars = {
   themeBtn: document.querySelector('.theme-btn'),
   main: document.querySelector('main'),
   theme: localStorage.getItem('theme'),
+  user: localStorage.getItem('user'),
+  greetingsText: document.querySelector('.logout-text'),
+  loginBlock: document.querySelector('.login'),
+  logoutBlock: document.querySelector('.logout'),
+  logoutBtn: document.querySelector('.logout-btn'),
+  errorBlock: document.querySelector('.error-wrap'),
+  errorMsg: document.querySelector('.error-message'),
+  errorBtn: document.querySelector('.error-escape-btn'),
 };
 
 export const userInput = vars.userInput;
@@ -29,3 +37,11 @@ export const titlesDrop = vars.titlesDrop;
 export const themeBtn = vars.themeBtn;
 export const main = vars.main;
 export const theme = vars.theme;
+export const user = vars.user;
+export const greetingsText = vars.greetingsText;
+export const loginBlock = vars.loginBlock;
+export const logoutBlock = vars.logoutBlock;
+export const logoutBtn = vars.logoutBtn;
+export const errorBlock = vars.errorBlock;
+export const errorMsg = vars.errorMsg;
+export const errorBtn = vars.errorBtn;
