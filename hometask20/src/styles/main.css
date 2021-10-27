@@ -28,17 +28,16 @@ main {
 }
 
 .login {
-  width: 50vw;
+  width: 25vw;
   display: none;
   margin: 0 2rem 2rem;
-  padding: 0.2rem;
 }
 
 .login-input {
   width: 15vw;
   height: 2.5rem;
   font-size: 1.1rem;
-  margin-right: 4rem;
+  margin-right: 3.725rem;
   padding: 0.5rem;
   border: none;
 }
@@ -65,7 +64,7 @@ main {
 .logout-text {
   font-size: 1.2rem;
   display: inline;
-  margin-right: 2rem;
+  margin-right: 4rem;
 }
 
 .logout-btn {
@@ -89,7 +88,7 @@ main {
 .error-message {
   font-size: 1.2rem;
   display: inline;
-  margin-right: 2rem;
+  margin-right: 5.7rem;
 }
 
 .error-escape-btn {
