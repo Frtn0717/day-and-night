@@ -1,0 +1,61 @@
+/* dark theme */
+.main-dark {
+  background: #2a2a2b;
+}
+
+.main-dark .login-input {
+  background-color: #0c2c41;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.main-dark .login-btn {
+  background-color: #0c2c41;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.main-dark .dropdown-wrapper {
+  background-color: #0c2c41;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.main-dark .login-btn:hover {
+  background-color: #3d6c8b;
+}
+
+.main-dark .logout-text {
+  color: #fff;
+}
+
+.main-dark .logout-btn {
+  background-color: #0c2c41;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.main-dark .logout-btn:hover {
+  background-color: #3d6c8b;
+}
+
+.main-dark .theme-btn {
+  background-color: #0c2c41;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.main-dark .theme-btn:hover {
+  background-color: #3d6c8b;
+  color: #fff;
+}
+
+.main-dark .error-escape-btn {
+  background-color: #0c2c41;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.main-dark .error-escape-btn:hover {
+  background-color: #3d6c8b;
+}

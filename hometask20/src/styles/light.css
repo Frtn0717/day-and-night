@@ -1,0 +1,52 @@
+/* light theme */
+.main-light {
+  background: linear-gradient(to left, #d66c45, #d58131, #4a736a, #324756);
+}
+
+.main-light .login-input {
+  background-color: #2789ca;
+  color: #fff;
+}
+
+.main-light .login-btn {
+  background-color: #2789ca;
+  color: #fff;
+}
+
+.main-light .dropdown-wrapper {
+  background-color: #2789ca;
+  color: #fff;
+}
+
+.main-light .login-btn:hover {
+  background-color: #5b9ac4;
+}
+
+.main-light .logout-btn {
+  background-color: #2789ca;
+  color: #fff;
+}
+
+.main-light .logout-btn:hover {
+  background-color: #5b9ac4;
+}
+
+.main-light .theme-btn {
+  background-color: #2789ca;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.main-light .theme-btn:hover {
+  background-color: #5b9ac4;
+  color: #fff;
+}
+
+.main-light .error-escape-btn {
+  background-color: #2789ca;
+  color: #fff;
+}
+
+.main-light .error-escape-btn:hover {
+  background-color: #5b9ac4;
+}
